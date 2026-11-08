@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "7e7b23cbfac04651b14e2b2ee7d31f48c11c76503a046e97689a60566a3acb5c",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://my.agiled.app/docs/api-docs.json"
+  ],
+  "id": "agiled-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agiled MCP setup and connection checker",
+  "description": "Generate Agiled MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agiled",
+  "appName": "Agiled",
+  "providerDocs": "https://my.agiled.app/docs/api-docs.json",
+  "providerWebsite": "https://agiled.app/",
+  "authentication": {
+    "type": "api_key_query",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://my.agiled.app/developers",
+    "tenantRequired": false,
+    "accountParameterNames": [
+      "brand"
+    ]
+  },
+  "attributionSlug": "github-agiled-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
