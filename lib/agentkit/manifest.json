@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agiled",
+      "description": "Connect AI agents to Agiled using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agiled/SKILL.md": "eb2c4c2ca6342399129276a1f7102fa581ac393c260a80a6d25eea499ea330eb"
+  }
+}
